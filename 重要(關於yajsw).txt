@@ -1,0 +1,15 @@
+若有修改 yajsw conf 的 java bin 路徑,需重新 install windows 服務(先移除,再安裝)
+其它conf異動重啟服務即可
+
+環境設定路徑
+
+1. yajsw-stable-12.14\conf\wrapper.conf 
+2. yajsw-stable-12.14\bat\setenv.bat 
+
+執行
+
+1. 執行測試 yajsw-stable-12.14\bat\runConsole.bat
+2. 安裝 Windows服務 yajsw-stable-12.14\bat\installService.bat
+3. 啟動 Windows服務 yajsw-stable-12.14\bat\startService.bat
+4. 停止 Windows服務 yajsw-stable-12.14\bat\stopService.bat
+5. 移除 Windows服務 yajsw-stable-12.14\bat\uninstallService.bat
